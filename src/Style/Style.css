@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.cakes_page {
+  background-color: rgb(252, 252, 245);
+}
+.cakes_page .heading_font{
+    font-size: 40px;
+    font-weight: 600;
+}
+.cakes_page .card{
+    border-radius: 27px;
+    border: none !important;
+    box-shadow: 2px 3px 15px rgb(233, 231, 231);
+}
+.cakes_page .image_box{
+    height: 300px;
+    overflow: hidden;
+}
+.cakes_page .image_box img{
+   border-radius: 27px 27px 0px 0px;
+   /* height: 100% !important; */
+   width: 100% !important;
+}
+.cakes_page .detail_box .name_font {
+  font-size: 21px;
+  font-weight: 500;
+  color: rgb(29, 28, 28);
+}
+.cakes_page .detail_box .price_font {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fc5e03;
+  display: flex;
+  align-items: center;
+}
+.cakes_page .detail_box .stock_font{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(204, 202, 202);
+}
+.cakes_page .detail_box .add_button{
+    font-size: 14px;
+    padding: 9px 20px;
+    background-color: #fc5e03;
+    color: white;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.cakes_page .detail_box .add_button:hover{
+    box-shadow: 2px 2px 10px #f16514;
+}
+
+
+
+
+
+
+
